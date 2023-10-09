@@ -1,0 +1,121 @@
+body{
+    background-color:rgb(251, 207, 169);
+}
+img{
+    width:1000px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -1;
+}
+
+.mainsection{
+    margin-top: 50px;
+    margin-left:200px;
+    padding-left:90px;
+}
+
+.section1{
+   background-color: black;
+   border: 2px;
+   border-color: black;
+   border-style: solid;
+   width: 500px;
+   font-family:sans-serif;
+
+   
+   
+}
+
+h5{
+    text-decoration: underline;
+    text-shadow: 2px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+form{
+    padding-left: 50px;
+
+
+}
+
+input[type=text]{
+    border: none;
+    border-bottom: 2px solid rgb(251, 207, 169);;
+    outline: none;
+    background-color: black;
+    color: white !important;
+}
+
+input[type=datetime]{
+    border: none;
+    border-bottom: 2px solid rgb(251, 207, 169);;
+    outline: none;
+    background-color: black;
+    color: white !important;
+}
+
+input[type=email]{
+    border: none;
+    border-bottom: 2px solid rgb(251, 207, 169);;
+    outline: none;
+    background-color: black;
+    color: white !important;
+}
+
+.details{ 
+    color:rgb(251, 207, 169);
+    font-size:small;
+    font-family: monospace;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.next{
+    display: block;
+}
+
+.pad{
+    padding-left: 5px;
+}
+
+input:hover{
+    border-color:green ;
+}
+
+select{
+    border: none;
+    border-bottom: 2px solid rgb(251, 207, 169);;
+    outline: none;
+    background-color: black;
+    color: white !important;
+    font-size:small;
+    
+
+}
+select:hover{
+    border-color:green ;
+}
+
+.reset{
+    background-color: rgb(251, 207, 169) ;
+}
+.reset:hover{
+    background-color: green;
+}
+
+.inline{
+    display: inline;
+    margin-top: 30px;
+}
+
+.terms{
+     color:white;
+}
+
+.error{
+    margin-top: 2px;
+    color:red!important;
+    font-family:sans-serif;
+    font-size: x-small;
+}

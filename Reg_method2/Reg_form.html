@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Reg_form_method2</title>
+    </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Reg_form.css">
+    <body>
+        <div class="container mainsection">
+                <div>
+                    <img src="images/dinner..jpg"/>
+                </div>
+                <div class="section1">
+
+<!-- form starts-->  
+<h5>Booking Place for Your Dinner!!</h5>
+
+<form id="reg_form" >
+   
+
+<label class="details next" for="fname" value="fullname">Full Name</label>
+<input type="text" id="fullname" name="fullname" placeholder="Enter your name...">
+<div class="error" id="error"></div>
+
+
+<label class="details next" value="mail">Email_id</label>
+<input type="email" id="email" name="email" placeholder="Enter email...">
+<div class="error" id="error1"></div>
+
+<label class="details next"  for="number" value="number">Phone number</label>
+<input type="text" name="number" id="number" placeholder="+91 xxxxxxxxxx">
+<div class="error" id="error2"></div>
+
+<label class="details next"  value="space">Select your dining space</label>
+<span class="details pad">2 seat <input type="radio"  id="space_2" name="space"> 
+    <span class="pad">4 seat<input type="radio"  id="space_4" name="space"></span> 
+    <span class="pad">6 seat<input type="radio"  id="space_6" name="space"></span>
+    </span>
+<div class="error" id="error3"></div>
+
+<label class="details next">Date</label>
+<input type="datetime" id="date" name="date" placeholder="dd/mm/yy">
+<div class="error" id="error4"></div>
+
+<label class="details next" value="">Branch</label>
+<div><select id="branch" name="branch" >
+    <option value="" >Please Select</option>
+<option >Kottayam</option>
+<option>Pathanamthitta</option>
+<option>Eranakulam</option>
+<option>Thiruvanadhapuram</option></select></div>
+<div class="error" id="error5"></div>
+
+
+
+<div class="details next"> <input type="checkbox" id="terms" name="terms"> I agree to the <a href="#" class="terms"> terms and conditions</a></div>
+<div class="error" id="error6"></div>
+
+<div class="details next inline" ><input class="reset" type="reset" value="clear"/></div>
+<div class="inline details next"><input type="submit" class="reset"  value="submit"></div>
+
+</form>
+<!--form ends-->                  
+              
+
+                </div>     
+    </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script> 
+<script src="js/Reg_form.js"></script>    
+</body>
+</html>
