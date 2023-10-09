@@ -36,7 +36,7 @@ $(document).ready(function(){
     }
 
     else{
-        document.getElementById('reg_form').submit();
+        $('#reg_form').submit();
 
     }
 });
